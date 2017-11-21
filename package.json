@@ -17,9 +17,12 @@
     "setup": "./node_modules/.bin/node-lambda setup",
     "test": "./node_modules/.bin/node-lambda run",
     "package": "./node_modules/.bin/node-lambda package",
-    "deploy": "./node_modules/.bin/node-lambda deploy"
+    "deploy": "./node_modules/.bin/node-lambda deploy",
+    "lint": "eslint ."
   },
   "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-google": "^0.9.1",
     "node-lambda": "^0.9.0"
   }
 }
