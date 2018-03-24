@@ -5,6 +5,8 @@ module.exports = {
   },
   "extends": "google",
   "rules": {
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "indent": ["error", 2],
+    "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 2 }]
   }
 };

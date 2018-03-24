@@ -5,7 +5,7 @@ exports.handler = function(event, context, callback) {
   console.log('event', event);
   console.log('==================================');
   console.log('Stopping index.handler');
-  callback(null, event);
+  callback( null, event ); // Echo back the event
   // or
   // callback( 'some error type' );
 };
